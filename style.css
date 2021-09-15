@@ -1,0 +1,96 @@
+body {
+  text-align: center;
+  margin: 0px;
+}
+
+header{
+  background-color: rgba(146, 224, 255, 0.842);
+  position: fixed;
+  top: 2%;
+  padding: 15px;
+  top: 0%;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.head {
+  margin: 10px;
+  padding: 8px;
+  border-radius: 50px;
+  background-color: aliceblue;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.blank {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  height: 130px;
+}
+
+
+.question {
+  background-color: whitesmoke;
+  margin: 15px 100px 15px 100px ;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  text-align: left;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+.date {
+  font-size: 3px;
+  float: right;
+  margin-right: 3%;
+  position: relative;
+  bottom: 10px;
+  right: -15px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0%;
+  padding: 3px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.border{
+  border-top: solid 3px rgb(230, 230, 230) ;
+  opacity: 5;
+  width: 100%;
+}
+
+.footer {
+  display: block;
+  padding: -8px;
+}
+
+.input > input {
+  width: 85%;
+  margin: 15px 10px;
+  border-radius: 5px;
+}
+
+button{
+  border: rgb(32, 161, 155);
+  color: white;
+  background-color: lightseagreen;
+  border-radius: 50px;
+  width: 100px;
+  height: 30px;
+  cursor:pointer;
+}
+
+button:hover{
+  opacity: 0.7;
+}
+
